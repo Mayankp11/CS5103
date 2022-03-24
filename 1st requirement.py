@@ -11,3 +11,6 @@ def word_count(str):
     return counts
 val = input("Enter your Words: ")
 print(word_count(val))
+
+
+jdshfksjdhfksjdfhskjfhs
