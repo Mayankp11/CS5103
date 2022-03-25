@@ -1,39 +1,28 @@
-import re
-#function for unique word count in the string
-def uniqueWordCout(fileContent):
-    uniqueWordDictionary = {}
-    words = filter(None, re.split(' |\n|\t', fileContent))
+def word_count(str):
+    counts = dict()
+    words = str.split()
+
     for word in words:
-        uniqueWordDictionary[word] = uniqueWordDictionary.get(word, 0) + 1
-    return uniqueWordDictionary
-# function used for replacement
-   
-def replaceWord(fileContent, findBy, replaceBy):
-    return re.sub('[ \t\n]'+findBy+'[ \t\n]', lambda x : x.group().replace(findBy, replaceBy), fileContent)
+        if word in counts:
+            counts[word] += 1
+        else:
+            counts[word] = 1
 
-#replacing the words present in the string
-
-inputFile = (open('C:/Users/mayan/Documents/CS_5103_fia088/sample.txt'))
-x = inputFile.read()
-
-y = uniqueWordCout(x)
-
-
-print(" \n Frequency of each word is : \n")
-for key in y:
-    
-    print("\t",key, '->', y[key])
-
-print("\n")
-print("unique word count = ",uniqueWordCout(x))
-print("\n")
-print("Original text message= ",x)
+    return counts
+print("You are running the first requirement of word count now")
+val = input("Enter your Words: ")
+print(word_count(val))
 print("\n")
 
 
 
-existing_word = input("Enter the word in the string : ")
-replace_word = input("\nEnter the word to be replaced with : ")
-print("\n")
 
-print("After replacing text message =",replaceWord(x,existing_word ,replace_word))
+# Second requirement
+
+import re
+print("Now the second requirement is executing")
+val = input("Enter your string : ")
+x = input("Enter the word to replace : ")
+y = input("Enter the word to replace with : ")
+
+print("Your final sentence is : " +re.sub(x, y, val))
