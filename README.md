@@ -6,7 +6,7 @@ Link of the GitHub repository is: https://github.com/Mayankp11/CS5103.git
 
 **Running the Application:**
 
-For running the application open the folder CS5103 then execute the python file named SE-Project.py
+For running the application open the folder CS5103 then execute the python file named Mayank_fia088.py
 a. After running the file the first requirement(Word count) will run where user should give the input and it will show the word counts.
 b. Then second requrement(word replacement) will run automatically so user should give the input and it will ask the word to replace then the word to be replaced with and finally it will show the result.
 
