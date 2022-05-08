@@ -37,9 +37,24 @@ source = input("Enter the word to replace : ")
 final = input("Enter the word to replace with : ")
 
 
-
 if source in val:
         print("Your final sentence is : " +re.sub(source, final, val))
 else: print("Cannot change")
 
+
+#3rd req
+import re
+
+txt = "The rain in Spain"
+
+
+
+x = re.findall(r'\bRain\b', txt,flags=re.IGNORECASE)
+print(x)
+
+if (x):
+    print("Yes, there is at least one match!")
+    print(txt)
+else:
+    print("No match")
 
