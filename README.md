@@ -17,7 +17,9 @@ c. The third requirement will execute finally. In that a string is already given
 
 **User Stories and Test Cases:**
 1. First requirement- 
- Script : Asks for a string as an input 
+ Script : 
+ Asks for a string as an input.
+ 
 
 
 5. Second requirement- For example when you give the input "hello my name is John" it will ask the input for word to replace(e.g.John) then it will ask for the word to be replaced with(e.g. Mike). The output will be "hello my name is Mike".
