@@ -68,6 +68,16 @@ else:
  Yes, there is at least one match.
  The rain in Spain
  
+ 
+ **For static clone detection**
+ I used a tool called 'Pylint' which is used for Python static clone detection.
+ And showed me the following output :
+ 
+ ![pylint static clone](https://user-images.githubusercontent.com/100968519/167329708-c1c76429-58ba-4606-bac1-b6d351c883b0.png)
+ 
+ 
+
+
   
   
 
