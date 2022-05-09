@@ -77,6 +77,48 @@ else:
  
  
  
+ ** Unit Testing**
+ 
+ Testing was performed on the code, which gave the following output.
+ 
+ For the third requirement, if boundries [\b_word_\b] was not inserted, it din't give correct output.
+ 
+ ![UNit_testing](https://user-images.githubusercontent.com/100968519/167338470-b7ae022a-6736-43c9-9164-d0e9c7a7059f.png)
+
+
+
+
+*** Output *****
+1st requirement.
+
+![1st_req](https://user-images.githubusercontent.com/100968519/167338972-826ded91-56b8-43cc-afad-ec149e884aa8.png)
+
+
+2nd requirement.
+
+![@nd_req](https://user-images.githubusercontent.com/100968519/167339012-745dcc36-df35-449e-81f7-a76a74635076.png)
+
+
+3rd requirement.
+
+![3rd_req](https://user-images.githubusercontent.com/100968519/167339059-497e4da2-69a2-4d0d-a1f9-867aacc8cbee.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
  
  
  
