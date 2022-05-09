@@ -18,8 +18,56 @@ c. The third requirement will execute finally. In that a string is already given
 **User Stories and Test Cases:**
 1. First requirement- 
  Script : 
- Asks for a string as an input.
+ Asks for a string as an input from user.
+ Where you need to insert characters of words.
  
+ val = input("Enter your Words: ")
+print(word_count(val))   #word_count(val) will count the occurence of words in the string.
+
+Expected result :
+Enter your words: Today is is a sunny day
+Output : {'Today':1,'is':2,'a':1,'sunny':1,'day':1}
+
+2. Second requirement-
+  Script :
+  Ask for a string from the user.
+  
+  val = input("Enter your string : ")
+  source = input("Enter the word to replace : ")
+  final = input("Enter the word to replace with : ")
+  +re.sub(source, final, val     # Regular expression will give the final output.
+  
+  Expected result:
+  Enter your string: I live in San Antonio
+  Enter the word to replace : live
+  Enter the word to replace with : stay
+  Your final sentence is : I stay in San Antonio.
+  
+3. Third requirement-
+   It takes input from the code.
+   
+   txt = "The rain in Spain"
 
 
-5. Second requirement- For example when you give the input "hello my name is John" it will ask the input for word to replace(e.g.John) then it will ask for the word to be replaced with(e.g. Mike). The output will be "hello my name is Mike".
+
+x = re.findall(r'\bRain\b', txt,flags=re.IGNORECASE)     #findall() regular expression is used.
+print(x)
+
+if (x):
+    print("Yes, there is at least one match!")    #will be shown as an output if there is a match.
+    print(txt)
+else:
+    print("No match")                             # will be shown as an output if there is no match.
+    
+    
+ Expected result :
+ 
+ # as Rain matches the string #
+ 
+ [Rain}
+ Yes, there is at least one match.
+ The rain in Spain
+ 
+  
+  
+
